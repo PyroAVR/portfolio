@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.80.0" />
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="https://folio.andymeyer.xyz/css/index.css" />
+<link rel="stylesheet" href="https://folio.andymeyer.xyz/css/navbar.css" />
+<link rel="stylesheet" href="https://folio.andymeyer.xyz/css/navbar.css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+<script type="text/javascript">
+    window.addEventListener('scroll', ()=>{
+        const nav = document.querySelector('nav')
+        nav.classList.toggle('onscroll', window.scrollY > 0)
+    })
+</script>
+    <title>Andrew H. Meyer</title>
+  </head>
+  <body>
+      <nav class="pl-4 md:pl-24">
+  <a href="https://folio.andymeyer.xyz" class="logo">Andrew H. Meyer</a>
+  <ul class="hidden md:flex">
+    
+    <li>
+      <a href="#about">About</a>
+    </li>
+    
+    <li>
+      <a href="#projects">Projects</a>
+    </li>
+    
+    <li>
+      <a href="https://andymeyer.xyz">Resume</a>
+    </li>
+    
+    <li>
+      <a href="#skills">Skills</a>
+    </li>
+    
+    <li>
+      <a href="#work-experience">Work Experience</a>
+    </li>
+    
+  </ul>
+</nav>
+<section class="banner"></section>
+
+      <div>
+  <div
+    id="mainBG"
+    style="background-image: url('img/muir_woods_floor.png');"
+  >
+    <div class="centerAll">
+      <div class="title text-6xl font-bold text-center">
+        Andy Meyer
+      </div>
+      <div class="text text-xl text-center">A Computer Engineer with a passion for building extraordinary things</div>
+    </div>
+  </div>
+  
+  <main class="container mx-auto mt-8 px-4 xl:px-0">
+    <section id="about" class="md:flex justify-around">
+      <div class="my-auto md:mr-4">
+        <div class="text-3xl title-deco tracking-wide">
+  About Me
+</div>
+
+        <div class="flex mt-3 gap-3 text-xl">
+          
+          <a href="https://github.com/PyroAVR"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/andrew-meyer-181458167/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://andymeyer.xyz"><i class="fab fa-firefox"></i></a>
+        </div>
+      </div>
+      <div class="mt-4 md:mt-0 md:ml-4">
+        <div class="text-2xl font-bold">
+          Welcome.
+        </div>
+        <div class="text-lg mt-3">
+          <div>
+            I am a computer engineer who values quality over quantity,<br />honors hard and honest work, and believes in teamwork, documented code,<br />and starting the day with a good cup of coffee.<br />The 30-second version of this document can be found <a href="https://andymeyer.xyz" style="text-decoration: underline">on my resume</a>!<br />The best way to contact me is via <a href="mailto:ahm7197@rit.edu" style="text-decoration: underline">email</a>.<br />
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="mt-12">
+      <div class="md:flex justify-center">
+        <div class="text-3xl title-deco tracking-wide">
+  Projects
+</div>
+
+      </div>
+      
+      
+      <div
+        class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+      >
+        
+        <a href="https://github.com/PyroAVR/alibc.containers" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/hashmap_code.png"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    <span class="font-mono">alibc.containers</span>
+    </div>
+            <p class="text-gray-700 text-base">
+                  The missing <span class="font-mono">#include</span> for C.
+    This project has been going since 2018 and started as an attempt to make an unopinionated, hassle-free Rapid Application Development library for C.
+    It includes commonly-used datastructures that are written on top of a common memory management structure.
+    I have used it for several school projects and for my own prototyping, and it is still under active development!
+    
+            </p>
+          </div>
+        </a>         
+        
+        <a href="https://github.com/P20123/k64_firmware" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/versawing_photo.jpg"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    P20123/Autonomous Search and Rescue Drones
+    </div>
+            <p class="text-gray-700 text-base">
+                  Senior Design Project at RIT. I managed a multidisiplinary team with two
+    mechanical engineers, an electrical engineer, and three computer engineers.
+    While the project was not completed, a great deal was learned about working
+    with other engineers, specifically the challenges faced in other disciplines.
+    The biggest technical acheivement on my part was writing a small real-time
+    operating system with syscalls, mutexes, file descriptors, context switching,
+    and safe interrupt handling --- from the ground up.
+    
+            </p>
+          </div>
+        </a>         
+        
+        <a href="https://andymeyer.xyz" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/resume.png"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    Online Resume and Portfolio
+    </div>
+            <p class="text-gray-700 text-base">
+                  Disclaimer: I am not a frontend dev. However, in an effort to have an online
+    presence, I have taught myself enough web development to make a static resume
+    and the portfolio you're currently reading. This project is among the more
+    foreign to me, requiring almost entirely skills outside my expertise. I am
+    pretty happy with the results!
+    
+            </p>
+          </div>
+        </a>         
+        
+        <a href="https://github.com/PyroAVR/OPAL-01" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/opal-01.png"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    OPAL-01 Instruction Set Architecture
+    </div>
+            <p class="text-gray-700 text-base">
+                  <p class="text-gray-700 text-base">
+    I worked with my classmate and good friend Wesley Dahar on the OPAL-01
+    processor for our Computer Organization class. What was supposed to be a
+    quick, eight-instruction CPU for an easy class project turned into a full
+    manual inspired by the style of the ARMv8-M ISA documents. We designed the
+    ISA from the ground up in about a week and Wesley made some example programs
+    using our ISA.
+    </p>
+    <p class="text-gray-700 text-base">
+    In Digital IC Design, OPAL-01 was used as the main coordinator of a
+    neural-network accelerator design. My friend Sabrina Ly implemented the
+    entire ISA in VHDL-93, and I wrote an assembler in C and the firmware for
+    our accelerator in OPAL-01 assembly.
+    </p>
+    
+            </p>
+          </div>
+        </a>         
+        
+        <a href="https://github.com/PyroAVR/snake-lang" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/snake_lang.png"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    <span class="font-mono">snake-lang</span>
+    </div>
+            <p class="text-gray-700 text-base">
+                  <p class="text-gray-700 text-base">
+    The Fundamental Theorem of Python, 1, states that anything can be done in python.
+    </p>
+    <p class="text-gray-700 text-base">
+    The Fundamental Theorem of Python, 2, states "just badly."
+    </p>
+    <p class="text-gray-700 text-base">
+    <span class="font-mono">snake-lang</span> is engineering stand-up. Although
+    it is unfit for use in production code, it demonstrates that the dynamic nature of
+    Python allows it to emulate the features of other languages, such as Swift.
+    Eventually I plan on adding other demonstrations, such as the ability to have
+    static class interfaces with initialization-time enforcement.
+    </p>
+    
+            </p>
+          </div>
+        </a>         
+        
+        <a href="https://github.com/PyroAVR/widget-super-touchplate" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/mill.png"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    Super Touchplate/Automated Offset Milling
+    </div>
+            <p class="text-gray-700 text-base">
+                  <p class="text-gray-700 text-base">
+    This javascript widget makes it easier to align a 3-axis CNC mill to a
+    workpiece. It plugs the fantastic Chilipeppr/TinyG by John Lauer (of Zipwhip), a
+    browser-based, open source CNC milling platform. I wrote it in a week in
+    2015, and have made a few updates since then.
+    </p>
+    <p class="text-gray-700 text-base">
+    While this is one of my earliest projects, it is one I can say has absolutely
+    positively affected many people and I am glad that I had the opportunity to
+    do something beneficial!
+    </p>
+    
+            </p>
+          </div>
+        </a>         
+        
+        <a href="https://github.com/PyroAVR/tinyxpc" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/txpc_code.png"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    TinyXPC
+    </div>
+            <p class="text-gray-700 text-base">
+                  This ongoing project aims to develop an ultralight alternative to a normal
+    TCP/IP stack, that can run on a variety of PHY layers without the resource
+    requirements of full TCP. It's current revision works in software on Linux,
+    and can be considered a proof of concept.
+    It was originally designed as an inter-process message passing system, but
+    the target design has evolved into a two-layer messaging system designed
+    primarily for edge devices and microcontrollers.
+    
+            </p>
+          </div>
+        </a>         
+        
+        <a href="https://github.com/PyroAVR/vga" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/vga.png"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    Bitbanged VGA
+    </div>
+            <p class="text-gray-700 text-base">
+                  Inspired by Linus Åkesson's Craft demo from 2008, which featured an ATMEGA88
+    rendering incredible graphics on a VGA monitor, my friend Piers Kwan and I
+    tried to recreate a small subset of that functionality on a Kinetis KL46
+    Cortex-M0+, for the final project of our Assembly Language Programming class.
+    We managed to get static colors on the screen in only two days, in which
+    we wrote all of the code, learned the protocol, and figured out how to test
+    our designs.  The code that ran in the final demo is 100% hand-written
+    ARMv7-M/Thumb 2 assembly. Maybe someday we'll try and make something worthy
+    of our inspiration...
+    
+            </p>
+          </div>
+        </a>         
+        
+        <a href="https://github.com/PyroAVR/k64_project_template" target="_blank" class="w-full rounded overflow-hidden shadow-lg hover:shadow-2xl">
+          <div>
+            <img
+            class="object-cover w-full h-48"
+            src="img/k64.jpg"
+            alt="picture missing :("
+            />            
+          </div>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">    Kinetis K60-Series Meson Template
+    </div>
+            <p class="text-gray-700 text-base">
+                  Embedded C does not have to be ugly, full of complicated shell scripts and
+    Makefiles, and this project is the proof.
+    Originally developed for my race car in Interface and Digital Electronics,
+    and then evolved to a more robust platform for my Senior Design team, this
+    template uses Meson and a few very simple Bash scripts to automate the
+    build, flash, and debug stages of baremetal firmware development in C.
+    Not only is it faster and smarter than a Makefile, but it is easier to
+    maintain and extend. Meson is flexible enough that we were able to make
+    several builds of an operating system and applications for our Senior
+    Design project from a single repository, all configurable with a single
+    command at compile time!
+    
+            </p>
+          </div>
+        </a>         
+        
+      </div>
+      
+    </section>
+    <section id="skills" class="mt-12">
+      <div class="md:flex justify-center">
+        <div class="text-3xl title-deco tracking-wide">
+  Skills
+</div>
+
+      </div>
+      
+      
+        <div
+         class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+        >
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/devicon/c-line.svg?size=128&amp;color=currentColor"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  The C Programming Language
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  Well versed in C at all levels ranging from baremetal embedded to<br />    application-level work. Familiar with event-driven programming and async IO.<br />    C is my <strong>favorite</strong> language to work in, by far.<br />    Well-written and architected C can be just as beautiful as any other language!<br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/devicon/python-plain.svg?size=128&amp;color=currentColor"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Python
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  I prefer to say "I'm a snake charmer" than "I'm a Pythonista".<br />    My work here ranges from development to intra-team consulting.<br />    All of my notable work in this area is secret due to NDAs with former employers.<br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/devicon/git-plain.svg?size=128&amp;color=currentColor"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Git VCS
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  Looking for proof? Have a look at this project which I managed:<br />    <a href="#project-msd" style="text-decoration: underline">P20123: Autonomous Search and Rescue Drones</a><br />    Have a look at the previous pull requests in the firmware repository if you're curious about code reviews!<br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/devicon/linux-plain.svg?size=128&amp;color=currentColor"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Linux and Friends
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  I have been using Linux as a daily driver since 2011! I run Sway on Arch.<br />    Apart from common APIs like Berkeley Sockets, I know some specialized APIs:<br />    <p class="text-base px-6 pb-4" style="font-family: monospace">epoll, GTK+, termios, select/poll</p><br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/simple/hackaday.svg?size=128&amp;color=currentColor&amp;colored=false"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  ARM Assembly
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  Experienced with writing algorithms and hand-optimizing code in ARM Thumb 2.<br />    Cortex-M0+ and M4 experience primarily. I am familiar with working with<br />    GNU linker scripts as well. Best example: <a href="https://github.com/P20123/k64_firmware/blob/master/src/kernel/arm/cm4/schedule_entry.S" class="underline">Context switching on Cortex-M4</a><br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/material/hammer.svg?size=128&amp;color=currentColor"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Build Systems
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  Meson, CMake, GNU Make, xcodebuild, Autotools, ... I'm sure I forgot a few.<br />    I use Meson for all of my personal projects, have a look at my embedded firmware templates that use it!<br />    <a href="https://github.com/PyroAVR/k64_project_template" class="underline">NXP Kinetis Baremetal Template</a><br />    <a href="https://github.com/PyroAVR/avr_project_template" class="underline">Microchip AVR Baremetal Template</a><br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/simple/tensorflow.svg?size=128&amp;color=currentColor&amp;colored=false"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Machine Learning &amp; Data Science
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  I have done professional and academic research in machine learning, with a focus on signal analysis and image processing.<br />    The usual Python suspects are all familiar to me - Numpy, TensorFlow, SKLearn, Scikit, Matplotlib, etc.<br />    Looking for something a little more low-level? I know CUDA too.<br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/devicon/firefox-plain.svg?size=128&amp;color=currentColor"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Web Technologies
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  This website was made using Hugo, and my resume was built with HTML & CSS, no JS, and by hand!<br />    I can work with web frontend in a pinch. I learned Tailwind CSS to make my resume responsive and printable.<br />    I have written microservices using NGINX, uwsgi, and Flask at several jobs.<br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="https://icongr.am/devicon/vim-plain.svg?size=128&amp;color=currentColor"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  ...And More
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  Didn't find everything you're looking for? <a href="mailto:ahm7197@rit.edu" class="underline">Ask away!</a><br />    I'm always learning new things, it's what I do. I learn on the job, too!<br />    If I have some skills you are looking for, and I'm missing a few, I'd still love to hear from you.<br />    
+            </p>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    <section id="work-experience" class="mt-12">
+      <div class="md:flex justify-center">
+        <div class="text-3xl title-deco tracking-wide">
+  Work Experience
+</div>
+
+      </div>
+      
+        <div class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4">
+          
+            <div class="w-full rounded overflow-hidden shadow-lg">
+              <div class="">
+                <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+                  <div class="flex flex-row flex-nowrap place-content-between">
+                    <div class="my-auto self-center">
+                      Apple, Inc.
+                    </div>
+                    <div class="text-sm md:text-base font-normal my-auto self-center">
+                      Jun-Dec 2018, May-Aug 2019
+                    </div>
+                  </div>
+                </div>
+                <p class="text-gray-700 text-base px-6 pb-4">
+                      My work at Apple was centered on debug infrastructure and triage tools, but
+    did include work with EFI firmware.
+    Projects include:
+    <ul class="ml-2 flex flex-col flex-wrap text-gray-700 text-base gap-y-1">
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Preserving volatile debugging information across system reboots without dynamic memory and with data integrity verification.
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Investigating the source of stalling on USB-3 connected core dumps and JTAG. Provided data and static code analysis to point to
+            optimizations in third-party code needed to be made.
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Writing a framework for decoding Intel Machine Checks, which
+            was then turned into a service accessible over HTTP and JSON.
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Converting some internal tools to Python3, and wrapping external Python2 tools in a compatibility layer so they could be containerized,
+            and used from modern languages until their replacement.
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Assisting with development of a framework to convert TianoCore build system into Xcode-compatible build definitions.
+            Greatly optimized existing architecture without intrusive changes.
+            </p>
+        </li>
+    </ul>
+    
+                </p>
+              </div>
+            </div>
+          
+            <div class="w-full rounded overflow-hidden shadow-lg">
+              <div class="">
+                <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+                  <div class="flex flex-row flex-nowrap place-content-between">
+                    <div class="my-auto self-center">
+                      Assured Information Security
+                    </div>
+                    <div class="text-sm md:text-base font-normal my-auto self-center">
+                      May-Sept 2017
+                    </div>
+                  </div>
+                </div>
+                <p class="text-gray-700 text-base px-6 pb-4">
+                      I worked as a machine learning researcher at AIS. Most of my time there was
+    spent teaching myself the basics of neural networks, and then using them in
+    a prototype cybersecurity project. The resulting systems ended up patented!
+    Achievements include:
+    <ul class="ml-2 flex flex-col flex-wrap text-gray-700 text-base gap-y-1">
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            I am a co-author on these United States patents: <a class="underline" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=10769260.PN.&OS=PN/10769260&RS=PN/10769259">10769259</a>, <a class="underline" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=10769260.PN.&OS=PN/10769260&RS=PN/10769260">10769260</a>
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Creation of a data processing framework that could perform filtering, and data segmentation in an easily augmentable way.
+            The framework included caching in sqlite databases, so that the operations could be paused and resumed without losing progress.
+            I used the caches to keep the memory usage to a minimum, so that the framework could be easily run on laptops and personal computers.
+            </p>
+        </li>
+    </ul>
+    
+                </p>
+              </div>
+            </div>
+          
+            <div class="w-full rounded overflow-hidden shadow-lg">
+              <div class="">
+                <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+                  <div class="flex flex-row flex-nowrap place-content-between">
+                    <div class="my-auto self-center">
+                      Rochester Institute of Technology
+                    </div>
+                    <div class="text-sm md:text-base font-normal my-auto self-center">
+                      Aug 2017-May 2018, Jan-May 2019, Aug 2020-Now
+                    </div>
+                  </div>
+                </div>
+                <p class="text-gray-700 text-base px-6 pb-4">
+                      I worked as a teaching assistant for a variety of classes, spanning computer science, assembly language programming, and control systems.
+    I believe that it is important to enable students to learn and understand things, in order to make them better engineers. Most of my grading
+    effort went into helping students become better writers, while most of my teaching efforts went into working in small groups with students to
+    assist them with understanding the course material and beyond.
+    
+                </p>
+              </div>
+            </div>
+          
+        </div>
+      
+    <section id="education" class="mt-12">
+      <div class="md:flex justify-center">
+        <div class="text-3xl title-deco tracking-wide">
+  Education
+</div>
+
+      </div>
+      
+        <div class="mt-8 flex flex-row place-items-center gap-4">
+        
+        <div class="w-full rounded overflow-hidden shadow-lg flex-grow-0">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="http://kgcoe-it.rit.edu/static/media/images/ce_logo_brown.svg"
+                  width="48px" height="48px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Master of Science, Computer Engineering
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  Planning to graduate in August 2021.<br />    My thesis topic is about generalization performance of deep neural networks, and is currently underway.<br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg flex-grow-0">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
+                  src="http://kgcoe-it.rit.edu/static/media/images/ce_logo_brown.svg"
+                  width="48px" height="48px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Bachelor of Science, Computer Engineering
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  Planning to graduate in May 2021.<br />    Minor in Mathematics.<br />    I took the minor in math because it was a weak subject that I wanted to improve my skills at.  I have definitely succeeded!<br />    Working with mathematics at a higher level has helped me to think in abstracts and be able to model difficult concepts in a simple way.<br />    
+            </p>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+  </main>
+</div>
+
+      <footer class="text-center mt-8 py-2 bg-gray-900 text-white">
+  <div>&copy; 2021 Andy Meyer</div>
+</footer>
+
+  </body>
+</html>
