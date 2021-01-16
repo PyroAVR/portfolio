@@ -1,0 +1,21 @@
+title = "Welcome."
+
+text = """
+I am a computer engineer who values quality over quantity,
+honors hard and honest work, and believes in teamwork, documented code,
+and starting the day with a good cup of coffee.
+The 30-second version of this document can be found <a href="https://andymeyer.xyz" style="text-decoration: underline">on my resume</a>!
+The best way to contact me is via <a href="mailto:ahm7197@rit.edu" style="text-decoration: underline">email</a>.
+"""
+
+[[link]]
+    icon = "fab fa-github"
+    url = "https://github.com/PyroAVR"
+
+[[link]]
+    icon = "fab fa-linkedin"
+    url = "https://www.linkedin.com/in/andrew-meyer-181458167/"
+
+[[link]]
+    icon = "fab fa-firefox"
+    url = "https://andymeyer.xyz"

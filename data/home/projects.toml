@@ -1,0 +1,162 @@
+[[list]]
+    title = """
+    <span class="font-mono">alibc.containers</span>
+    """
+    image = "img/hashmap_code.png"
+    hover_props = "hover:shadow-2xl"
+    url = "https://github.com/PyroAVR/alibc.containers"
+    text = """
+    The missing <span class="font-mono">#include</span> for C.
+    This project has been going since 2018 and started as an attempt to make an unopinionated, hassle-free Rapid Application Development library for C.
+    It includes commonly-used datastructures that are written on top of a common memory management structure.
+    I have used it for several school projects and for my own prototyping, and it is still under active development!
+    """
+[[list]]
+    title = """
+    P20123/Autonomous Search and Rescue Drones
+    """
+    image = "img/versawing_photo.jpg"
+    hover_props = "hover:shadow-2xl"
+    url = "https://github.com/P20123/k64_firmware"
+    text = """
+    Senior Design Project at RIT. I managed a multidisiplinary team with two
+    mechanical engineers, an electrical engineer, and three computer engineers.
+    While the project was not completed, a great deal was learned about working
+    with other engineers, specifically the challenges faced in other disciplines.
+    The biggest technical acheivement on my part was writing a small real-time
+    operating system with syscalls, mutexes, file descriptors, context switching,
+    and safe interrupt handling --- from the ground up.
+    """
+[[list]]
+    title = """
+    Online Resume and Portfolio
+    """
+    image = "img/resume.png"
+    hover_props = "hover:shadow-2xl"
+    url = "https://andymeyer.xyz"
+    text = """
+    Disclaimer: I am not a frontend dev. However, in an effort to have an online
+    presence, I have taught myself enough web development to make a static resume
+    and the portfolio you're currently reading. This project is among the more
+    foreign to me, requiring almost entirely skills outside my expertise. I am
+    pretty happy with the results!
+    """
+[[list]]
+    title = """
+    OPAL-01 Instruction Set Architecture
+    """
+    image = "img/opal-01.png"
+    hover_props = "hover:shadow-2xl"
+    url = "https://github.com/PyroAVR/OPAL-01"
+    text = """
+    <p class="text-gray-700 text-base">
+    I worked with my classmate and good friend Wesley Dahar on the OPAL-01
+    processor for our Computer Organization class. What was supposed to be a
+    quick, eight-instruction CPU for an easy class project turned into a full
+    manual inspired by the style of the ARMv8-M ISA documents. We designed the
+    ISA from the ground up in about a week and Wesley made some example programs
+    using our ISA.
+    </p>
+    <p class="text-gray-700 text-base">
+    In Digital IC Design, OPAL-01 was used as the main coordinator of a
+    neural-network accelerator design. My friend Sabrina Ly implemented the
+    entire ISA in VHDL-93, and I wrote an assembler in C and the firmware for
+    our accelerator in OPAL-01 assembly.
+    </p>
+    """
+[[list]]
+    title = """
+    <span class="font-mono">snake-lang</span>
+    """
+    image = "img/snake_lang.png"
+    hover_props = "hover:shadow-2xl"
+    url = "https://github.com/PyroAVR/snake-lang"
+    text = """
+    <p class="text-gray-700 text-base">
+    The Fundamental Theorem of Python, 1, states that anything can be done in python.
+    </p>
+    <p class="text-gray-700 text-base">
+    The Fundamental Theorem of Python, 2, states "just badly."
+    </p>
+    <p class="text-gray-700 text-base">
+    <span class="font-mono">snake-lang</span> is engineering stand-up. Although
+    it is unfit for use in production code, it demonstrates that the dynamic nature of
+    Python allows it to emulate the features of other languages, such as Swift.
+    Eventually I plan on adding other demonstrations, such as the ability to have
+    static class interfaces with initialization-time enforcement.
+    </p>
+    """
+[[list]]
+    title = """
+    Super Touchplate/Automated Offset Milling
+    """
+    image = "img/mill.png"
+    hover_props = "hover:shadow-2xl"
+    url = "https://github.com/PyroAVR/widget-super-touchplate"
+    text = """
+    <p class="text-gray-700 text-base">
+    This javascript widget makes it easier to align a 3-axis CNC mill to a
+    workpiece. It plugs the fantastic Chilipeppr/TinyG by John Lauer (of Zipwhip), a
+    browser-based, open source CNC milling platform. I wrote it in a week in
+    2015, and have made a few updates since then.
+    </p>
+    <p class="text-gray-700 text-base">
+    While this is one of my earliest projects, it is one I can say has absolutely
+    positively affected many people and I am glad that I had the opportunity to
+    do something beneficial!
+    </p>
+    """
+[[list]]
+    title = """
+    TinyXPC
+    """
+    image = "img/txpc_code.png"
+    hover_props = "hover:shadow-2xl"
+    url = "https://github.com/PyroAVR/tinyxpc"
+    text = """
+    This ongoing project aims to develop an ultralight alternative to a normal
+    TCP/IP stack, that can run on a variety of PHY layers without the resource
+    requirements of full TCP. It's current revision works in software on Linux,
+    and can be considered a proof of concept.
+    It was originally designed as an inter-process message passing system, but
+    the target design has evolved into a two-layer messaging system designed
+    primarily for edge devices and microcontrollers.
+    """
+[[list]]
+    title = """
+    Bitbanged VGA
+    """
+    image = "img/vga.png"
+    hover_props = "hover:shadow-2xl"
+    url = "https://github.com/PyroAVR/vga"
+    text = """
+    Inspired by Linus Åkesson's Craft demo from 2008, which featured an ATMEGA88
+    rendering incredible graphics on a VGA monitor, my friend Piers Kwan and I
+    tried to recreate a small subset of that functionality on a Kinetis KL46
+    Cortex-M0+, for the final project of our Assembly Language Programming class.
+    We managed to get static colors on the screen in only two days, in which
+    we wrote all of the code, learned the protocol, and figured out how to test
+    our designs.  The code that ran in the final demo is 100% hand-written
+    ARMv7-M/Thumb 2 assembly. Maybe someday we'll try and make something worthy
+    of our inspiration...
+    """
+[[list]]
+    title = """
+    Kinetis K60-Series Meson Template
+    """
+    image = "img/k64.jpg"
+    hover_props = "hover:shadow-2xl"
+    url = "https://github.com/PyroAVR/k64_project_template"
+    text = """
+    Embedded C does not have to be ugly, full of complicated shell scripts and
+    Makefiles, and this project is the proof.
+    Originally developed for my race car in Interface and Digital Electronics,
+    and then evolved to a more robust platform for my Senior Design team, this
+    template uses Meson and a few very simple Bash scripts to automate the
+    build, flash, and debug stages of baremetal firmware development in C.
+    Not only is it faster and smarter than a Makefile, but it is easier to
+    maintain and extend. Meson is flexible enough that we were able to make
+    several builds of an operating system and applications for our Senior
+    Design project from a single repository, all configurable with a single
+    command at compile time!
+    """

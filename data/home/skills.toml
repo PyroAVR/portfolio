@@ -1,0 +1,74 @@
+[[list]]
+    name = "The C Programming Language"
+    icon = "https://icongr.am/devicon/c-line.svg?size=128&color=currentColor"
+    text = """
+    Well versed in C at all levels ranging from baremetal embedded to
+    application-level work. Familiar with event-driven programming and async IO.
+    C is my <strong>favorite</strong> language to work in, by far.
+    Well-written and architected C can be just as beautiful as any other language!
+    """
+[[list]]
+    name = "Python"
+    icon = "https://icongr.am/devicon/python-plain.svg?size=128&color=currentColor"
+    text = """
+    I prefer to say "I'm a snake charmer" than "I'm a Pythonista".
+    My work here ranges from development to intra-team consulting.
+    All of my notable work in this area is secret due to NDAs with former employers.
+    """
+[[list]]
+    name = "Git VCS"
+    icon = "https://icongr.am/devicon/git-plain.svg?size=128&color=currentColor"
+    text = """
+    Looking for proof? Have a look at this project which I managed:
+    <a href="#project-msd" style="text-decoration: underline">P20123: Autonomous Search and Rescue Drones</a>
+    Have a look at the previous pull requests in the firmware repository if you're curious about code reviews!
+    """
+[[list]]
+    name = "Linux and Friends"
+    icon = "https://icongr.am/devicon/linux-plain.svg?size=128&color=currentColor"
+    text = """
+    I have been using Linux as a daily driver since 2011! I run Sway on Arch.
+    Apart from common APIs like Berkeley Sockets, I know some specialized APIs:
+    <p class="text-base px-6 pb-4" style="font-family: monospace">epoll, GTK+, termios, select/poll</p>
+    """
+[[list]]
+    name = "ARM Assembly"
+    icon = "https://icongr.am/simple/hackaday.svg?size=128&color=currentColor&colored=false"
+    text = """
+    Experienced with writing algorithms and hand-optimizing code in ARM Thumb 2.
+    Cortex-M0+ and M4 experience primarily. I am familiar with working with
+    GNU linker scripts as well. Best example: <a href="https://github.com/P20123/k64_firmware/blob/master/src/kernel/arm/cm4/schedule_entry.S" class="underline">Context switching on Cortex-M4</a>
+    """
+[[list]]
+    name = "Build Systems"
+    icon = "https://icongr.am/material/hammer.svg?size=128&color=currentColor"
+    text = """
+    Meson, CMake, GNU Make, xcodebuild, Autotools, ... I'm sure I forgot a few.
+    I use Meson for all of my personal projects, have a look at my embedded firmware templates that use it!
+    <a href="https://github.com/PyroAVR/k64_project_template" class="underline">NXP Kinetis Baremetal Template</a>
+    <a href="https://github.com/PyroAVR/avr_project_template" class="underline">Microchip AVR Baremetal Template</a>
+    """
+[[list]]
+    name = "Machine Learning & Data Science"
+    icon = "https://icongr.am/simple/tensorflow.svg?size=128&color=currentColor&colored=false"
+    text = """
+    I have done professional and academic research in machine learning, with a focus on signal analysis and image processing.
+    The usual Python suspects are all familiar to me - Numpy, TensorFlow, SKLearn, Scikit, Matplotlib, etc.
+    Looking for something a little more low-level? I know CUDA too.
+    """
+[[list]]
+    name = "Web Technologies"
+    icon = "https://icongr.am/devicon/firefox-plain.svg?size=128&color=currentColor"
+    text = """
+    This website was made using Hugo, and my resume was built with HTML & CSS, no JS, and by hand!
+    I can work with web frontend in a pinch. I learned Tailwind CSS to make my resume responsive and printable.
+    I have written microservices using NGINX, uwsgi, and Flask at several jobs.
+    """
+[[list]]
+    name = "...And More"
+    icon = "https://icongr.am/devicon/vim-plain.svg?size=128&color=currentColor"
+    text = """
+    Didn't find everything you're looking for? <a href="mailto:ahm7197@rit.edu" class="underline">Ask away!</a>
+    I'm always learning new things, it's what I do. I learn on the job, too!
+    If I have some skills you are looking for, and I'm missing a few, I'd still love to hear from you.
+    """

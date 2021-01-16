@@ -1,0 +1,16 @@
+[[list]]
+    name = "Master of Science, Computer Engineering"
+    icon = "http://kgcoe-it.rit.edu/static/media/images/ce_logo_brown.svg"
+    text = """
+    Planning to graduate in August 2021.
+    My thesis topic is about generalization performance of deep neural networks, and is currently underway.
+    """
+[[list]]
+    name = "Bachelor of Science, Computer Engineering"
+    icon = "http://kgcoe-it.rit.edu/static/media/images/ce_logo_brown.svg"
+    text = """
+    Planning to graduate in May 2021.
+    Minor in Mathematics.
+    I took the minor in math because it was a weak subject that I wanted to improve my skills at.  I have definitely succeeded!
+    Working with mathematics at a higher level has helped me to think in abstracts and be able to model difficult concepts in a simple way.
+    """

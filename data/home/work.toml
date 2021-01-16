@@ -1,0 +1,80 @@
+title = "work something or other"
+
+[[list]]
+    title = "Apple, Inc."
+    date_range = "Jun-Dec 2018, May-Aug 2019"
+    text ="""
+    My work at Apple was centered on debug infrastructure and triage tools, but
+    did include work with EFI firmware.
+    Projects include:
+    <ul class="ml-2 flex flex-col flex-wrap text-gray-700 text-base gap-y-1">
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Preserving volatile debugging information across system reboots without dynamic memory and with data integrity verification.
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Investigating the source of stalling on USB-3 connected core dumps and JTAG. Provided data and static code analysis to point to
+            optimizations in third-party code needed to be made.
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Writing a framework for decoding Intel Machine Checks, which
+            was then turned into a service accessible over HTTP and JSON.
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Converting some internal tools to Python3, and wrapping external Python2 tools in a compatibility layer so they could be containerized,
+            and used from modern languages until their replacement.
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Assisting with development of a framework to convert TianoCore build system into Xcode-compatible build definitions.
+            Greatly optimized existing architecture without intrusive changes.
+            </p>
+        </li>
+    </ul>
+    """
+[[list]]
+    title = "Assured Information Security"
+    date_range = "May-Sept 2017"
+    text = """
+    I worked as a machine learning researcher at AIS. Most of my time there was
+    spent teaching myself the basics of neural networks, and then using them in
+    a prototype cybersecurity project. The resulting systems ended up patented!
+    Achievements include:
+    <ul class="ml-2 flex flex-col flex-wrap text-gray-700 text-base gap-y-1">
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            I am a co-author on these United States patents: <a class="underline" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=10769260.PN.&OS=PN/10769260&RS=PN/10769259">10769259</a>, <a class="underline" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=10769260.PN.&OS=PN/10769260&RS=PN/10769260">10769260</a>
+            </p>
+        </li>
+        <li class="flex flex-row flex-nowrap">
+            <img class="self-start mt-1" src="https://icongr.am/fontawesome/angle-right.svg?size=16&color=currentColor" width="16" height="16"></img>
+            <p>
+            Creation of a data processing framework that could perform filtering, and data segmentation in an easily augmentable way.
+            The framework included caching in sqlite databases, so that the operations could be paused and resumed without losing progress.
+            I used the caches to keep the memory usage to a minimum, so that the framework could be easily run on laptops and personal computers.
+            </p>
+        </li>
+    </ul>
+    """
+[[list]]
+    title = "Rochester Institute of Technology"
+    date_range = "Aug 2017-May 2018, Jan-May 2019, Aug 2020-Now"
+    text = """
+    I worked as a teaching assistant for a variety of classes, spanning computer science, assembly language programming, and control systems.
+    I believe that it is important to enable students to learn and understand things, in order to make them better engineers. Most of my grading
+    effort went into helping students become better writers, while most of my teaching efforts went into working in small groups with students to
+    assist them with understanding the course material and beyond.
+    """
