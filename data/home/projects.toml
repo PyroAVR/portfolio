@@ -2,6 +2,7 @@
     title = """
     <span class="font-mono">alibc.containers</span>
     """
+    tag = "project-alibc"
     image = "img/hashmap_code.png"
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/PyroAVR/alibc.containers"
@@ -15,6 +16,7 @@
     title = """
     P20123/Autonomous Search and Rescue Drones
     """
+    tag = "project-msd"
     image = "img/versawing_photo.jpg"
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/P20123/k64_firmware"
@@ -31,6 +33,7 @@
     title = """
     Online Resume and Portfolio
     """
+    tag = "project-resume"
     image = "img/resume.png"
     hover_props = "hover:shadow-2xl"
     url = "https://andymeyer.xyz"
@@ -45,6 +48,7 @@
     title = """
     OPAL-01 Instruction Set Architecture
     """
+    tag = "project-opal"
     image = "img/opal-01.png"
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/PyroAVR/OPAL-01"
@@ -68,6 +72,7 @@
     title = """
     <span class="font-mono">snake-lang</span>
     """
+    tag = "project-snake-lang"
     image = "img/snake_lang.png"
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/PyroAVR/snake-lang"
@@ -90,6 +95,7 @@
     title = """
     Super Touchplate/Automated Offset Milling
     """
+    tag = "project-touchplate"
     image = "img/mill.png"
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/PyroAVR/widget-super-touchplate"
@@ -110,6 +116,7 @@
     title = """
     TinyXPC
     """
+    tag = "project-txpc"
     image = "img/txpc_code.png"
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/PyroAVR/tinyxpc"
@@ -126,6 +133,7 @@
     title = """
     Bitbanged VGA
     """
+    tag = "project-vga"
     image = "img/vga.png"
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/PyroAVR/vga"
@@ -144,6 +152,7 @@
     title = """
     Kinetis K60-Series Meson Template
     """
+    tag = "project-k64_template"
     image = "img/k64.jpg"
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/PyroAVR/k64_project_template"

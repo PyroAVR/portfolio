@@ -44,7 +44,7 @@
         class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
       >
         {{ range $data.projects.list }}
-        <a href="{{ .url }}" target="_blank" class="w-full rounded overflow-hidden shadow-lg {{.hover_props}}">
+        <a id="{{ .tag }}" href="{{ .url }}" target="_blank" class="w-full rounded overflow-hidden shadow-lg {{.hover_props}}">
           <div>
             <img
             class="object-cover w-full h-48"
