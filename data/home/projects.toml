@@ -36,7 +36,7 @@
     tag = "project-resume"
     image = "img/resume.png"
     hover_props = "hover:shadow-2xl"
-    url = "https://andymeyer.xyz"
+    url = "https://cv.andymeyer.xyz"
     text = """
     Disclaimer: I am not a frontend dev. However, in an effort to have an online
     presence, I have taught myself enough web development to make a static resume

@@ -4,7 +4,7 @@ text = """
 I am a computer engineer who values quality over quantity,
 honors hard and honest work, and believes in teamwork, documented code,
 and starting the day with a good cup of coffee.
-The 30-second version of this document can be found <a href="https://andymeyer.xyz" style="text-decoration: underline">on my resume</a>!
+The 30-second version of this document can be found <a href="https://cv.andymeyer.xyz" style="text-decoration: underline">on my resume</a>!
 The best way to contact me is via <a href="mailto:ahm7197@rit.edu" style="text-decoration: underline">email</a>.
 """
 
@@ -18,4 +18,4 @@ The best way to contact me is via <a href="mailto:ahm7197@rit.edu" style="text-d
 
 [[link]]
     icon = "fab fa-firefox"
-    url = "https://andymeyer.xyz"
+    url = "https://cv.andymeyer.xyz"
