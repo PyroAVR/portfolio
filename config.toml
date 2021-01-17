@@ -30,4 +30,4 @@ publishDir = "build"
     [[menu.main]]
         identifier = "resume"
         name = "Resume"
-        url = "https://andymeyer.xyz"
+        url = "https://cv.andymeyer.xyz"
