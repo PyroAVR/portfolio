@@ -19,11 +19,12 @@
         nav.classList.toggle('onscroll', window.scrollY > 0)
     })
 </script>
+
     <title>Andrew H. Meyer</title>
   </head>
   <body>
-      <nav class="pl-4 md:pl-24">
-  <a href="https://folio.andymeyer.xyz" class="logo">Andrew H. Meyer</a>
+      <nav class="pl-4 w-full flex flex-col md:flex-row md:place-content-between md:pt-4 md:pl-16">
+  <a href="https://folio.andymeyer.xyz" class="logo hidden md:block">Andrew H. Meyer</a>
   <ul class="hidden md:flex">
     
     <li>
@@ -47,6 +48,38 @@
     </li>
     
   </ul>
+  <input type="checkbox" class="openSidebarMenu block md:hidden" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle md:hidden">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu" class="h-full flex flex-col place-content-start pt-10">
+    <a href="https://folio.andymeyer.xyz" class="flex-grow-0 font-semibold uppercase font-lg py-5 pl-5 tracking-wide text-gray-100">Andrew H. Meyer</a>
+    <ul class="sidebarMenuInner grid grid-flow-row gap-y-5 flex-grow-0 pt-5">
+      
+      <li class="gap-y-5">
+        <a href="#about">About</a>
+      </li>
+      
+      <li class="gap-y-5">
+        <a href="#projects">Projects</a>
+      </li>
+      
+      <li class="gap-y-5">
+        <a href="https://andymeyer.xyz">Resume</a>
+      </li>
+      
+      <li class="gap-y-5">
+        <a href="#skills">Skills</a>
+      </li>
+      
+      <li class="gap-y-5">
+        <a href="#work-experience">Work Experience</a>
+      </li>
+      
+    </ul>
+  </div>
 </nav>
 <section class="banner"></section>
 
@@ -672,15 +705,15 @@
 
       </div>
       
-        <div class="mt-8 flex flex-row place-items-center gap-4">
+        <div class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 place-items-center gap-4">
         
         <div class="w-full rounded overflow-hidden shadow-lg flex-grow-0">
           <div class="">
             <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
               <div class="flex">
                 <img
-                  src="http://kgcoe-it.rit.edu/static/media/images/ce_logo_brown.svg"
-                  width="48px" height="48px"
+                  src="img/ce_logo.svg"
+                  width="48px"
                   class="bg-gray-300 py-1 px-1 rounded-full"
                 />
                 <div class="my-auto ml-2">
@@ -699,8 +732,8 @@
             <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
               <div class="flex">
                 <img
-                  src="http://kgcoe-it.rit.edu/static/media/images/ce_logo_brown.svg"
-                  width="48px" height="48px"
+                  src="img/ce_logo.svg"
+                  width="48px"
                   class="bg-gray-300 py-1 px-1 rounded-full"
                 />
                 <div class="my-auto ml-2">
