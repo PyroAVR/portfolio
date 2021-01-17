@@ -1,13 +1,13 @@
 [[list]]
     name = "Master of Science, Computer Engineering"
-    icon = "http://kgcoe-it.rit.edu/static/media/images/ce_logo_brown.svg"
+    icon = "img/ce_logo.svg"
     text = """
     Planning to graduate in August 2021.
     My thesis topic is about generalization performance of deep neural networks, and is currently underway.
     """
 [[list]]
     name = "Bachelor of Science, Computer Engineering"
-    icon = "http://kgcoe-it.rit.edu/static/media/images/ce_logo_brown.svg"
+    icon = "img/ce_logo.svg"
     text = """
     Planning to graduate in May 2021.
     Minor in Mathematics.
