@@ -1,5 +1,5 @@
-<nav class="pl-4 md:pl-24">
-  <a href="{{ .Site.BaseURL }}" class="logo">{{ .Site.Title }}</a>
+<nav class="pl-4 w-full flex flex-col md:flex-row md:place-content-between md:pt-4 md:pl-16">
+  <a href="{{ .Site.BaseURL }}" class="logo hidden md:block">{{ .Site.Title }}</a>
   <ul class="hidden md:flex">
     {{ range .Site.Menus.main }}
     <li>
@@ -7,5 +7,21 @@
     </li>
     {{end}}
   </ul>
+  <input type="checkbox" class="openSidebarMenu block md:hidden" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle md:hidden">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu" class="h-full flex flex-col place-content-start pt-10">
+    <a href="{{ .Site.BaseURL }}" class="flex-grow-0 font-semibold uppercase font-lg py-5 pl-5 tracking-wide text-gray-100">{{ .Site.Title }}</a>
+    <ul class="sidebarMenuInner grid grid-flow-row gap-y-5 flex-grow-0 pt-5">
+      {{ range .Site.Menus.main }}
+      <li class="gap-y-5">
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{end}}
+    </ul>
+  </div>
 </nav>
 <section class="banner"></section>
