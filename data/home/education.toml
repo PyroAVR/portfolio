@@ -3,7 +3,7 @@
     icon = "img/ce_logo.svg"
     text = """
     Planning to graduate in August 2021.
-    My thesis topic is about generalization performance of deep neural networks, and is currently underway.
+    My thesis topic is about improving generalization performance of deep neural networks using Information Theory, and is currently underway.
     """
 [[list]]
     name = "Bachelor of Science, Computer Engineering"
@@ -11,6 +11,6 @@
     text = """
     Planning to graduate in May 2021.
     Minor in Mathematics.
-    I took the minor in math because it was a weak subject that I wanted to improve my skills at.  I have definitely succeeded!
+    I took the minor in math because it was a weak subject for me, and I chose to improve my skills.  I have definitely succeeded!
     Working with mathematics at a higher level has helped me to think in abstracts and be able to model difficult concepts in a simple way.
     """

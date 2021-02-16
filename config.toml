@@ -7,7 +7,7 @@ publishDir = "build"
 [params]
     name = "Andy Meyer"
     mainTitle = "Andy Meyer"
-    mainText = "A Computer Engineer with a passion for building extraordinary things"
+    mainText = "A Computer Engineer with a passion for creating value by building extraordinary things"
     mainbg = "img/muir_woods_floor.png"
 
 [menus]
