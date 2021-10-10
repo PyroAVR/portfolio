@@ -2,8 +2,12 @@
     name = "Master of Science, Computer Engineering"
     icon = "img/ce_logo.svg"
     text = """
-    Planning to graduate in August 2021.
-    My thesis topic is about improving generalization performance of deep neural networks using Information Theory, and is currently underway.
+    Planning to graduate in December 2021.
+    My thesis involves Adversarial Machine Learning and generalization
+    performance of Deep Neural Networks, specifically focusing on image
+    classification. My work demonstrates the behavior of regularization and data
+    augmentation techniques on adversarial robustness and develops a new method
+    to improve generalization.
     """
 [[list]]
     name = "Bachelor of Science, Computer Engineering"
