@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.99.1" />
+	<meta name="generator" content="Hugo 0.111.3">
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -168,13 +168,15 @@
             <div class="font-bold text-xl mb-2">    P20123/Autonomous Search and Rescue Drones
     </div>
             <p class="text-gray-700 text-base">
-                  Senior Design Project at RIT. I managed a multidisiplinary team with two
-    mechanical engineers, an electrical engineer, and three computer engineers.
+                  Senior Design Project at RIT. I was the lead engineer and project manager
+    for a multidisiplinary team with two mechanical engineers, an electrical
+    engineer, and three computer engineers. I wrote a Real Time Operating
+    System (RTOS) <strong>from scratch</strong> for this project, featuring a
+    round-robin scheduler, system calls, and a modular build system. The
+    syscall and context-switch entries were written by hand in ARMv7-M
+    assembly.
     While the project was not completed, a great deal was learned about working
     with other engineers, specifically the challenges faced in other disciplines.
-    The biggest technical acheivement on my part was writing a small real-time
-    operating system with syscalls, mutexes, file descriptors, context switching,
-    and safe interrupt handling --- from the ground up.
     
             </p>
           </div>
@@ -410,6 +412,26 @@
             <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
               <div class="flex">
                 <img
+                  src="https://icongr.am/material/chip.svg?size=128&amp;color=currentColor"
+                  width="50px"
+                  class="bg-gray-300 py-1 px-1 rounded-full"
+                />
+                <div class="my-auto ml-2">
+                  Obscure Toolchains and Linkers
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-700 text-base px-6 pb-4">
+                  GNU LD is the most popular syntax for linker scripts, but many other<br />    toolchains have incompatible description formats for binary layout. I know<br />    GNU LD, ARMLINK, and CC-RL/H.<br />    
+            </p>
+          </div>
+        </div>
+        
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <div class="">
+            <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+              <div class="flex">
+                <img
                   src="https://icongr.am/devicon/python-plain.svg?size=128&amp;color=currentColor"
                   width="50px"
                   class="bg-gray-300 py-1 px-1 rounded-full"
@@ -420,7 +442,7 @@
               </div>
             </div>
             <p class="text-gray-700 text-base px-6 pb-4">
-                  I prefer to say "I'm a snake charmer" than "I'm a Pythonista".<br />    My work here ranges from development to intra-team consulting.<br />    All of my notable work in this area is secret due to NDAs with former employers.<br />    
+                  I prefer to say "I'm a snake charmer" than "I'm a Pythonista".<br />    My work here ranges from development to intra-team consulting.<br />    All of my notable work in this area is secret due to NDAs with former employers.<br />    I have regularly lead projects for internal tooling that use python.<br />    My most recent endeavor involves writing protocol converters to enable<br />    access to endpoint devices on a LIN bus via an HTTP API.<br />    
             </p>
           </div>
         </div>
@@ -440,7 +462,7 @@
               </div>
             </div>
             <p class="text-gray-700 text-base px-6 pb-4">
-                  Looking for proof? Have a look at this project which I managed:<br />    <a href="#project-msd" style="text-decoration: underline">P20123: Autonomous Search and Rescue Drones</a><br />    Have a look at the previous pull requests in the firmware repository if you're curious about code reviews!<br />    
+                  Looking for proof? Have a look at this project which I managed:<br />    <a href="#project-msd" style="text-decoration: underline">P20123: Autonomous Search and Rescue Drones</a><br />    Have a look at the previous pull requests in the firmware repository if you're curious about code reviews!<br />    I'm familiar with monorepos and submodules as well.<br />    
             </p>
           </div>
         </div>
@@ -520,7 +542,7 @@
               </div>
             </div>
             <p class="text-gray-700 text-base px-6 pb-4">
-                  I have done professional and academic research in machine learning, with a focus on signal analysis and image processing.<br />    The usual Python suspects are all familiar to me - Numpy, TensorFlow, SKLearn, Scikit, Matplotlib, etc.<br />    Looking for something a little more low-level? I know CUDA too.<br />    
+                  I have done professional and academic research in machine learning, with a focus on signal analysis and image processing.<br />    The usual Python suspects are all familiar to me - Numpy, PyTorch, Tensorflow, SciKit, Matplotlib, etc.<br />    Looking for something a little more low-level? I know CUDA too.<br />    
             </p>
           </div>
         </div>
@@ -540,7 +562,7 @@
               </div>
             </div>
             <p class="text-gray-700 text-base px-6 pb-4">
-                  This website was made using Hugo, and my resume was built with HTML & CSS, no JS, and by hand!<br />    I can work with web frontend in a pinch. I learned Tailwind CSS to make my resume responsive and printable.<br />    I have written microservices using NGINX, uwsgi, and Flask at several jobs.<br />    
+                  This website was made using Hugo, and my resume was built with HTML & CSS, no JS, and by hand!<br />    I can work with web frontend in a pinch. I learned Tailwind CSS to make my resume responsive and printable.<br />    I have written microservices using NGINX, uwsgi, and Flask at several jobs.<br />    I also know <p class="text-base px-6 pb-4" style="font-family: monospace">aiohttp</p>, a powerful library for writing fast and dynamic APIs<br />    in python.<br />    
             </p>
           </div>
         </div>
@@ -591,20 +613,18 @@
                   </div>
                 </div>
                 <p class="text-gray-700 text-base px-6 pb-4">
-                      Officially, I'm employed as a Software Engineer on Vehicle Software/Firmware Platforms.
-    Myself and my team provide the bootloaders that allow Over-The-Air updates to
-    deliver safety, performance, and reliability improvements to Tesla vehicles,
-    chargers, powerwalls, and solar inverters all over the world.
-    Additionally, I work with other teams to provide firmware development
-    support for new platforms, or new prototypes, where expertise with low-level,
-    real-time software is needed.
-    The specifics of my work at Tesla is currently under NDA, as it involves
-    features which have not launched yet.
-    I have gained experience with uncommon architectures such as RL78 and MLX16,
-    and a little C2000.
-    I've also worked with remote teams and vendors located in China, India, and
-    Belgium. It's been an enlightening experience to learn the different
-    dynamics of other cultures and to learn how to break through language barriers.
+                      Myself and my team provide the bootloaders
+    that enable Over-The-Air updates to deliver safety, performance, and
+    reliability improvements to Tesla vehicles, chargers, powerwalls, and solar
+    inverters all over the world. Additionally, I serve as a platform expert,
+    providing firmware development support to other teams or new prototypes,
+    where expertise with low-level, real-time software is needed. The specifics
+    of my work at Tesla is currently under NDA, as it involves features which
+    have not launched yet. I have gained experience with uncommon architectures
+    such as RL78, RH850, MLX16, and a little C2000. I've also worked with
+    remote teams and vendors located in China, India, and Belgium. It's been an
+    enlightening experience to learn the different dynamics of other cultures
+    and to learn how to break through language barriers.
     
                 </p>
               </div>
@@ -754,7 +774,7 @@
               </div>
             </div>
             <p class="text-gray-700 text-base px-6 pb-4">
-                  Planning to graduate in June 2022.<br />    My thesis involves Adversarial Machine Learning and generalization<br />    performance of Deep Neural Networks, specifically focusing on image<br />    classification. My work demonstrates the behavior of regularization and data<br />    augmentation techniques on adversarial robustness and develops a new method<br />    to improve generalization.<br />    
+                  Certified December 2022.<br />    My thesis involves Adversarial Machine Learning and generalization<br />    performance of Deep Neural Networks, specifically focusing on image<br />    classification. My work demonstrates the behavior of regularization and data<br />    augmentation techniques on adversarial robustness and implements InfoMixup,<br />    a new algorithm for robust generalization using information-constrained<br />    Mixup in a Gaussian latent space.<br />    <a href="https://scholarworks.rit.edu/theses/11248/">https://scholarworks.rit.edu/theses/11248/</a><br />    
             </p>
           </div>
         </div>
@@ -774,7 +794,7 @@
               </div>
             </div>
             <p class="text-gray-700 text-base px-6 pb-4">
-                  Planning to graduate in May 2021.<br />    Minor in Mathematics.<br />    I took the minor in math because it was a weak subject for me, and I chose to improve my skills.  I have definitely succeeded!<br />    Working with mathematics at a higher level has helped me to think in abstracts and be able to model difficult concepts in a simple way.<br />    
+                  Certified May 2021.<br />    Minor in Mathematics.<br />    I took the minor in math because it was a weak subject for me, and I chose to improve my skills.  I have definitely succeeded!<br />    Working with mathematics at a higher level has helped me to think in abstracts and be able to model difficult concepts in a simple way.<br />    
             </p>
           </div>
         </div>
@@ -786,7 +806,7 @@
 </div>
 
       <footer class="text-center mt-8 py-2 bg-gray-900 text-white">
-  <div>&copy; 2022 Andy Meyer</div>
+  <div>&copy; 2023 Andy Meyer</div>
 </footer>
 
   </body>
