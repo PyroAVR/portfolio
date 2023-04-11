@@ -2,18 +2,20 @@
     name = "Master of Science, Computer Engineering"
     icon = "img/ce_logo.svg"
     text = """
-    Planning to graduate in June 2022.
+    Certified December 2022.
     My thesis involves Adversarial Machine Learning and generalization
     performance of Deep Neural Networks, specifically focusing on image
     classification. My work demonstrates the behavior of regularization and data
-    augmentation techniques on adversarial robustness and develops a new method
-    to improve generalization.
+    augmentation techniques on adversarial robustness and implements InfoMixup,
+    a new algorithm for robust generalization using information-constrained
+    Mixup in a Gaussian latent space.
+    <a href="https://scholarworks.rit.edu/theses/11248/">https://scholarworks.rit.edu/theses/11248/</a>
     """
 [[list]]
     name = "Bachelor of Science, Computer Engineering"
     icon = "img/ce_logo.svg"
     text = """
-    Planning to graduate in May 2021.
+    Certified May 2021.
     Minor in Mathematics.
     I took the minor in math because it was a weak subject for me, and I chose to improve my skills.  I have definitely succeeded!
     Working with mathematics at a higher level has helped me to think in abstracts and be able to model difficult concepts in a simple way.

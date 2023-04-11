@@ -21,13 +21,15 @@
     hover_props = "hover:shadow-2xl"
     url = "https://github.com/P20123/k64_firmware"
     text = """
-    Senior Design Project at RIT. I managed a multidisiplinary team with two
-    mechanical engineers, an electrical engineer, and three computer engineers.
+    Senior Design Project at RIT. I was the lead engineer and project manager
+    for a multidisiplinary team with two mechanical engineers, an electrical
+    engineer, and three computer engineers. I wrote a Real Time Operating
+    System (RTOS) <strong>from scratch</strong> for this project, featuring a
+    round-robin scheduler, system calls, and a modular build system. The
+    syscall and context-switch entries were written by hand in ARMv7-M
+    assembly.
     While the project was not completed, a great deal was learned about working
     with other engineers, specifically the challenges faced in other disciplines.
-    The biggest technical acheivement on my part was writing a small real-time
-    operating system with syscalls, mutexes, file descriptors, context switching,
-    and safe interrupt handling --- from the ground up.
     """
 [[list]]
     title = """

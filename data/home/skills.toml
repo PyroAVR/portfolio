@@ -8,12 +8,23 @@
     Well-written and architected C can be just as beautiful as any other language!
     """
 [[list]]
+    name = "Obscure Toolchains and Linkers"
+    icon = "https://icongr.am/material/chip.svg?size=128&color=currentColor"
+    text = """
+    GNU LD is the most popular syntax for linker scripts, but many other
+    toolchains have incompatible description formats for binary layout. I know
+    GNU LD, ARMLINK, and CC-RL/H.
+    """
+[[list]]
     name = "Python"
     icon = "https://icongr.am/devicon/python-plain.svg?size=128&color=currentColor"
     text = """
     I prefer to say "I'm a snake charmer" than "I'm a Pythonista".
     My work here ranges from development to intra-team consulting.
     All of my notable work in this area is secret due to NDAs with former employers.
+    I have regularly lead projects for internal tooling that use python.
+    My most recent endeavor involves writing protocol converters to enable
+    access to endpoint devices on a LIN bus via an HTTP API.
     """
 [[list]]
     name = "Git VCS"
@@ -22,6 +33,7 @@
     Looking for proof? Have a look at this project which I managed:
     <a href="#project-msd" style="text-decoration: underline">P20123: Autonomous Search and Rescue Drones</a>
     Have a look at the previous pull requests in the firmware repository if you're curious about code reviews!
+    I'm familiar with monorepos and submodules as well.
     """
 [[list]]
     name = "Linux and Friends"
@@ -53,7 +65,7 @@
     icon = "https://icongr.am/simple/tensorflow.svg?size=128&color=currentColor&colored=false"
     text = """
     I have done professional and academic research in machine learning, with a focus on signal analysis and image processing.
-    The usual Python suspects are all familiar to me - Numpy, TensorFlow, SKLearn, Scikit, Matplotlib, etc.
+    The usual Python suspects are all familiar to me - Numpy, PyTorch, Tensorflow, SciKit, Matplotlib, etc.
     Looking for something a little more low-level? I know CUDA too.
     """
 [[list]]
@@ -63,6 +75,8 @@
     This website was made using Hugo, and my resume was built with HTML & CSS, no JS, and by hand!
     I can work with web frontend in a pinch. I learned Tailwind CSS to make my resume responsive and printable.
     I have written microservices using NGINX, uwsgi, and Flask at several jobs.
+    I also know <p class="text-base px-6 pb-4" style="font-family: monospace">aiohttp</p>, a powerful library for writing fast and dynamic APIs
+    in python.
     """
 [[list]]
     name = "...And More"
